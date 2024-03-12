@@ -11,7 +11,7 @@ import jakarta.persistence.Table;
 @Table(name = "setor", schema = "horario" )
 public class SetorEntity {
 
-	private static final long serialVersionVID = 1l;
+	private static final long serialVersionVID =1l;
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id_setor")
